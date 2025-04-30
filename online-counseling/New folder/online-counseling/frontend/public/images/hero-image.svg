@@ -1,0 +1,31 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#f0f9ff" rx="20" ry="20" />
+  
+  <!-- Background elements -->
+  <circle cx="500" cy="100" r="50" fill="#bae6fd" opacity="0.5" />
+  <circle cx="100" cy="300" r="70" fill="#bae6fd" opacity="0.3" />
+  <circle cx="450" cy="350" r="30" fill="#bae6fd" opacity="0.4" />
+  
+  <!-- Counselor -->
+  <circle cx="180" cy="150" r="60" fill="#0284c7" />
+  <circle cx="180" cy="80" r="30" fill="#f8fafc" />
+  <rect x="150" y="170" width="60" height="120" fill="#0284c7" rx="10" ry="10" />
+  
+  <!-- Patient -->
+  <circle cx="420" cy="150" r="60" fill="#64748b" />
+  <circle cx="420" cy="80" r="30" fill="#f8fafc" />
+  <rect x="390" y="170" width="60" height="120" fill="#64748b" rx="10" ry="10" />
+  
+  <!-- Connection lines -->
+  <line x1="220" y1="180" x2="380" y2="180" stroke="#0ea5e9" stroke-width="4" stroke-dasharray="10,5" />
+  <line x1="220" y1="200" x2="380" y2="200" stroke="#0ea5e9" stroke-width="4" stroke-dasharray="10,5" />
+  <line x1="220" y1="220" x2="380" y2="220" stroke="#0ea5e9" stroke-width="4" stroke-dasharray="10,5" />
+  
+  <!-- Speech bubbles -->
+  <path d="M 240,120 L 270,130 L 300,110 L 280,140 L 240,120" fill="#0ea5e9" />
+  <path d="M 360,130 L 330,140 L 300,120 L 320,150 L 360,130" fill="#64748b" />
+  
+  <!-- Devices -->
+  <rect x="150" y="250" width="80" height="60" fill="#f1f5f9" rx="5" ry="5" stroke="#0ea5e9" stroke-width="2" />
+  <rect x="370" y="250" width="80" height="60" fill="#f1f5f9" rx="5" ry="5" stroke="#64748b" stroke-width="2" />
+</svg> 
